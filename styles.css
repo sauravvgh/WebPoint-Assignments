@@ -1,0 +1,100 @@
+*{
+   
+    box-sizing:border-box;
+    background-color: var(--primary-background-color);
+    font-family: var(--)var(--primary-font-family);
+
+}
+
+:root{
+    --primary-background-color: #34678d;
+    --primary-font-family: 'Readex Pro', sans-serif;
+    --primary-font-color: #fff;
+    --secondary-font-color: black;
+
+}
+
+.title{
+    color: white;
+    padding:16px 0;
+}   
+.title h1{
+    font-size: 15px;
+    margin-bottom:5px;
+    font-family: var(--primary-font-family);
+}
+.title h4{
+    font-size: 12px;
+    color:var(--primary-font-color);
+    font-family: var(--primary-font-family);
+}
+
+.logo{
+    float: right;
+    display: flex;
+    height: auto;
+    align-items: center;
+    margin-right: 20px;
+}
+.logo{
+    width: 600px;
+}
+
+.main-title{
+color: var(--primary-font-color);
+font-family: var(--primary-font-family);
+font-size: 10px;
+font-weight:bolder;
+}
+
+.BodyContainer td a {
+    color: var(--primary-font-color);
+    font-family: var(--primary-font-family);
+    
+    
+}
+
+.BodyContainer{
+    color: var(--primary-font-color);
+    font-family: var(--primary-font-family);
+    width:100%
+}
+thead tr{
+    color: var(--primary-font-color);
+    font-family: var(--primary-font-family);
+    
+}
+.BodyContainer{
+     padding: 16px 0;
+    
+}
+
+.BodyContainer tr:nth-of-type(2n) a {
+    background-color: #cccccb;
+    color: black;
+    
+    background-color: rgb(187, 134, 64);
+    font-family: var(--primary-font-family);
+  }
+  
+
+.BodyContainer table{
+    text-align: left;
+    border-collapse: collapse;
+    font-family: var(--primary-font-family);
+    
+}
+.BodyContainer td,
+.BodyContainer th {
+  text-align: left;
+  padding: 8px;
+  font-family: var(--primary-font-family);
+}
+.bottom h6{
+    margin-top: 32px;
+    padding: 16px 0;
+    background-color: pink;
+    text-align: center;
+    font-family: var(--primary-font-family);
+   
+}
