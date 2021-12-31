@@ -1,6 +1,6 @@
 *{
    
-    box-sizing:border-box;
+    /* box-sizing:border-box; */
     background-color: var(--primary-background-color);
     font-family: var(--)var(--primary-font-family);
 
@@ -65,22 +65,23 @@ thead tr{
     
 }
 .BodyContainer{
-     padding: 16px 0;
+      padding: 16px 0; 
     
 }
 
 .BodyContainer tr:nth-of-type(2n) a {
     background-color: #cccccb;
-    color: black;
+    color: rgb(8, 6, 6);
     
-    background-color: rgb(187, 134, 64);
+    background-color: rgb(206, 199, 190);
     font-family: var(--primary-font-family);
+    
   }
   
 
 .BodyContainer table{
-    text-align: left;
-    border-collapse: collapse;
+    /* text-align: left; */
+    /* border-collapse: collapse; */
     font-family: var(--primary-font-family);
     
 }
